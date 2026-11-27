@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Bowling Alley VR — two stylized bowling environments, Horror Fantasy and Jungle Adventure, created by Dhruv Mangrola.">
+<meta name="theme-color" content="#101010"><title>Bowling Alley VR | Dhruv Mangrola — 3D Artist</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<style>
+.project-detail{padding:70px 8vw 110px;max-width:1600px;margin:auto}.back-link{display:inline-block;color:#c9ff56;font:10px 'DM Mono';letter-spacing:1px;margin-bottom:45px}.detail-heading{display:grid;grid-template-columns:1.15fr .85fr;gap:50px;align-items:end;margin-bottom:45px}.detail-heading h1{font-size:clamp(48px,7vw,88px);letter-spacing:-5px;line-height:1.02;margin:0}.detail-heading h1 em{font-family:Georgia,serif;color:#c9ff56;font-weight:400}.detail-intro{color:#aaa;font-size:13px;line-height:2}.specs{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}.specs span{border:1px solid #41413b;padding:9px 12px;color:#ddd;font:10px 'DM Mono'}.published-link{display:inline-block;color:#c9ff56;font-size:11px;margin-top:18px;border-bottom:1px solid #697b3e;padding-bottom:5px}.theme-section{margin-top:75px}.theme-heading{display:flex;align-items:end;justify-content:space-between;gap:25px;margin-bottom:25px;border-bottom:1px solid #393933;padding-bottom:18px}.theme-heading h2{font-size:clamp(32px,4vw,48px);letter-spacing:-2px}.theme-heading p{color:#999;font-size:11px;margin:0;max-width:330px}.gallery{display:grid;grid-template-columns:1fr 1fr;gap:14px}.gallery figure{margin:0;background:#050505;min-height:230px;display:flex;flex-direction:column;align-items:center;justify-content:center}.gallery figure:first-child{grid-column:span 2}.gallery img{display:block;width:100%;height:100%;max-height:760px;object-fit:contain;flex:1;min-height:0}.gallery figcaption{font:9px 'DM Mono';letter-spacing:1px;color:#888;padding:11px 12px}.detail-info{display:grid;grid-template-columns:1fr 1fr;gap:60px;margin-top:80px;border-top:1px solid #393933;padding-top:35px}.detail-info h2{font-size:30px;letter-spacing:-1px;margin-bottom:20px}.detail-info p,.detail-info li{font-size:12px;color:#aaa;line-height:2}.detail-info ul{padding-left:18px}.credit-note{border-left:2px solid #c9ff56;padding:12px 18px;background:#171813;color:#aaa;font-size:11px;line-height:1.9;margin-top:24px}.credit-note strong{color:#eee}
+@media(max-width:700px){.project-detail{padding:45px 6vw 80px}.detail-heading,.detail-info{grid-template-columns:1fr;gap:22px}.theme-heading{display:block}.theme-heading p{margin-top:12px}.gallery{grid-template-columns:1fr}.gallery figure:first-child{grid-column:auto}.gallery figure{min-height:200px}.detail-heading h1{letter-spacing:-3px}.theme-section{margin-top:55px}}
+
+
+
+/* Main render: full-width, centered, true 16:9 frame */
+.project-main-visual {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  margin: 8px auto 65px;
+  padding: 0;
+  background: transparent;
+  overflow: hidden;
+}
+.project-main-visual img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: contain;
+  object-position: center;
+  margin: 0 auto;
+}
+.project-main-visual p {
+  font: 9px 'DM Mono', monospace;
+  letter-spacing: 1.2px;
+  color: #888;
+  margin: 0;
+  padding: 12px 2px;
+}
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+  align-items: start;
+}
+.gallery figure {
+  margin: 0;
+  min-width: 0;
+  min-height: 0;
+  background: transparent;
+  display: block;
+  overflow: hidden;
+}
+.gallery figure:first-child { grid-column: 1 / -1; }
+.gallery img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: none;
+  object-fit: contain;
+  margin: 0;
+}
+.gallery figcaption {
+  font: 9px 'DM Mono', monospace;
+  letter-spacing: 1px;
+  color: #888;
+  padding: 11px 2px;
+}
+@media (max-width: 700px) {
+  .project-main-visual { margin-bottom: 50px; }
+  .gallery { grid-template-columns: minmax(0, 1fr); }
+  .gallery figure:first-child { grid-column: auto; }
+}
+
+</style>
+</head>
+<body>
+<header class="topbar"><a class="brand" href="index.html">DM<span>.</span></a><button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">☰</button><nav class="nav"><a href="index.html#work">Work</a><a href="index.html#about">About</a><a href="index.html#experience">Experience</a><a href="index.html#contact" class="nav-contact">Let's talk <span>↗</span></a></nav></header>
+<main class="project-detail">
+<a class="back-link" href="index.html#work">← BACK TO SELECTED WORK</a>
+<div class="detail-heading">
+<div><p class="eyebrow">ENVIRONMENT ART · VIRTUAL REALITY</p><h1>Bowling Alley<br><em>VR</em></h1></div>
+<div><p class="detail-intro">A stylized VR bowling experience featuring two distinct environment themes: Horror Fantasy and Jungle Adventure. Each theme has its own atmosphere, color palette, decorative artwork, furniture and bowling-lane presentation.</p><div class="specs"><span>2 ENVIRONMENT THEMES</span><span>BLENDER WORKFLOW</span><span>META QUEST RELEASE</span></div></div>
+</div>
+<section class="project-main-visual" aria-label="Bowling Alley VR main environment render">
+  <img src="assets/bowling-alley-vr/bowling-alley-vr-main.jpg" alt="Bowling Alley VR panoramic main environment render">
+  <p>MAIN ENVIRONMENT RENDER · HORROR FANTASY THEME</p>
+</section>
+<section class="theme-section">
+<div class="theme-heading"><div><p class="eyebrow">01 — ENVIRONMENT THEME</p><h2>Horror <em>Fantasy</em></h2></div><p>A neon-lit, futuristic bowling space with deep blue tones, purple seating, glowing accents and atmospheric visual elements.</p></div>
+<div class="gallery">
+<figure><img src="assets/bowling-alley-vr/horror-fantasy/02-hero-front.jpg" alt="Horror Fantasy bowling alley front wide view"><figcaption>01 — MAIN ENVIRONMENT VIEW</figcaption></figure>
+<figure><img src="assets/bowling-alley-vr/bowling-alley-vr-main.jpg" alt="Horror Fantasy bowling alley angled view"><figcaption>02 — ANGLED ENVIRONMENT VIEW</figcaption></figure>
+<figure><img src="assets/bowling-alley-vr/horror-fantasy/03-rear-view.jpg" alt="Horror Fantasy bowling alley rear view"><figcaption>03 — REAR ENVIRONMENT VIEW</figcaption></figure>
+<figure><img src="assets/bowling-alley-vr/horror-fantasy/04-wide-angle.jpg" alt="Horror Fantasy bowling alley wide angle"><figcaption>04 — WIDE SCENE COMPOSITION</figcaption></figure>
+<figure><img src="assets/bowling-alley-vr/horror-fantasy/05-lane-detail.jpg" alt="Horror Fantasy bowling lane and railing detail"><figcaption>05 — LANE AND RAILING DETAIL</figcaption></figure>
+</div>
+</section>
+<section class="theme-section">
+<div class="theme-heading"><div><p class="eyebrow">02 — ENVIRONMENT THEME</p><h2>Jungle <em>Adventure</em></h2></div><p>A vibrant, nature-inspired bowling space with rich green surroundings, fantasy forest artwork, warm-toned furniture and immersive jungle styling.</p></div>
+<div class="gallery">
+<figure><img src="assets/bowling-alley-vr/jungle-adventure/02-hero-front.jpg" alt="Jungle Adventure bowling alley front wide view"><figcaption>01 — MAIN ENVIRONMENT VIEW</figcaption></figure>
+<figure><img src="assets/bowling-alley-vr/jungle-adventure/01-detail-angle.jpg" alt="Jungle Adventure bowling alley angled view"><figcaption>02 — ANGLED ENVIRONMENT VIEW</figcaption></figure>
+<figure><img src="assets/bowling-alley-vr/jungle-adventure/03-lane-closeup.jpg" alt="Jungle Adventure bowling lane close-up"><figcaption>03 — BOWLING LANE DETAIL</figcaption></figure>
+<figure><img src="assets/bowling-alley-vr/jungle-adventure/04-wide-angle.jpg" alt="Jungle Adventure bowling alley wide environment"><figcaption>04 — WIDE ENVIRONMENT VIEW</figcaption></figure>
+<figure><img src="assets/bowling-alley-vr/jungle-adventure/05-side-angle.jpg" alt="Jungle Adventure bowling alley side angle"><figcaption>05 — SIDE ENVIRONMENT VIEW</figcaption></figure>
+<figure><img src="assets/bowling-alley-vr/jungle-adventure/06-environment-angle.jpg" alt="Jungle Adventure bowling alley additional environment angle"><figcaption>06 — ADDITIONAL ENVIRONMENT ANGLE</figcaption></figure>
+</div>
+</section>
+<section class="theme-section">
+<div class="theme-heading"><div><p class="eyebrow">03 — MODELING BREAKDOWN</p><h2>Wireframe <em>View</em></h2></div><p>A look at the underlying scene geometry and environment layout.</p></div>
+<div class="gallery"><figure><img src="assets/bowling-alley-vr/wireframe.jpg" alt="Bowling Alley VR environment wireframe view"><figcaption>01 — ENVIRONMENT WIREFRAME</figcaption></figure></div>
+</section>
+<div class="detail-info">
+<div><p class="eyebrow">PROJECT OVERVIEW</p><h2>Two themes, one experience.</h2><p>This project showcases two themed environments developed for a VR bowling experience. My focus was on building the 3D environment and its visual presentation, including scene layout, modular props, furniture, decorative assets, materials and lighting.</p><p>All presented environment renders were created in Blender. The two themes were designed to feel distinct while maintaining a consistent bowling experience.</p></div>
+<div><p class="eyebrow">MY CONTRIBUTION & TOOLS</p><h2>3D environment art.</h2><ul><li>Environment and prop modeling in Blender.</li><li>Scene layout, composition and material assignment.</li><li>UV unwrapping and PBR texturing in Substance 3D Painter.</li><li>Lighting and final environment rendering in Blender.</li></ul><p><strong>Software:</strong> Blender, Substance 3D Painter.</p><div class="credit-note"><strong>Development credit:</strong> Unity implementation and Meta Quest integration were handled by the development team. My contribution was the 3D environment art and Blender renders.</div></div>
+</div>
+</main>
+<footer><a class="brand" href="index.html">DM<span>.</span></a><span>© <span id="year"></span> DHRUV MANGROLA</span><a href="#">BACK TO TOP ↑</a></footer>
+<script src="script.js"></script><script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</body></html>

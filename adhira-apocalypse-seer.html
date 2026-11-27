@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Adhira — The Apocalypse Seer, a stylized game-ready character by Dhruv Mangrola.">
+<meta name="theme-color" content="#101010"><title>Adhira — The Apocalypse Seer | Dhruv Mangrola</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<style>
+.project-detail{padding:70px 8vw 110px;max-width:1500px;margin:auto}
+.back-link{display:inline-block;color:#c9ff56;font:10px 'DM Mono';letter-spacing:1px;margin-bottom:45px}
+.detail-heading{display:grid;grid-template-columns:1.2fr .8fr;gap:50px;align-items:end;margin-bottom:55px}
+.detail-heading h1{font-size:clamp(45px,7vw,88px);letter-spacing:-5px;line-height:1.02;margin:0}
+.detail-heading h1 em{font-family:Georgia,serif;color:#c9ff56;font-weight:400}
+.detail-intro{color:#aaa;font-size:13px;line-height:2}
+.specs{display:flex;gap:12px;flex-wrap:wrap;margin-top:20px}
+.specs span{border:1px solid #41413b;padding:9px 12px;color:#ddd;font:10px 'DM Mono'}
+.gallery{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;align-items:stretch}
+.gallery figure{margin:0;background:#1b1d1e;min-height:0;aspect-ratio:4/3;display:flex;align-items:stretch;justify-content:center;overflow:hidden}
+.gallery figure:first-child{grid-column:span 2;aspect-ratio:16/9}
+.gallery img{display:block;width:100%;height:100%;max-height:none;object-fit:contain;background:#1b1d1e}
+.gallery figcaption{font:9px 'DM Mono';letter-spacing:1px;color:#888;padding:10px 12px}
+.gallery figure{display:flex;flex-direction:column}
+.gallery figure img{flex:1;min-height:0}
+.detail-info{display:grid;grid-template-columns:1fr 1fr;gap:60px;margin-top:75px;border-top:1px solid #393933;padding-top:35px}
+.detail-info h2{font-size:30px;letter-spacing:-1px;margin-bottom:20px}
+.detail-info p,.detail-info li{font-size:12px;color:#aaa;line-height:2}
+.detail-info ul{padding-left:18px}
+@media(max-width:700px){.project-detail{padding:45px 6vw 80px}.detail-heading,.detail-info{grid-template-columns:1fr;gap:22px}.gallery{grid-template-columns:1fr}.gallery figure:first-child{grid-column:auto}.gallery figure{min-height:220px}.detail-heading h1{letter-spacing:-3px}}
+</style>
+</head>
+<body>
+<header class="topbar"><a class="brand" href="index.html">DM<span>.</span></a><nav class="nav"><a href="index.html#work">Work</a><a href="index.html#about">About</a><a href="index.html#experience">Experience</a><a href="index.html#contact" class="nav-contact">Let's talk <span>↗</span></a></nav></header>
+<main class="project-detail">
+<a class="back-link" href="index.html#work">← BACK TO SELECTED WORK</a>
+<div class="detail-heading">
+<div><p class="eyebrow">CHARACTER ART · REAL-TIME GAME ASSET</p><h1>Adhira —<br><em>The Apocalypse Seer</em></h1></div>
+<div><p class="detail-intro">A stylized, game-ready character combining post-apocalyptic science fiction with Indian cultural influence. Designed as a narrative “Old Soul” — a hero reborn across timelines.</p><div class="specs"><span>48K TRIANGLES</span><span>5 MATERIALS</span><span>GODOT ENGINE</span></div></div>
+</div>
+<div class="gallery">
+<figure><img src="assets/adhira-apocalypse-seer/01-front-view.png" alt="Adhira front view"><figcaption>01 — FRONT VIEW</figcaption></figure>
+<figure><img src="assets/adhira-apocalypse-seer/02-three-quarter-front.png" alt="Adhira three-quarter front view"><figcaption>02 — THREE-QUARTER FRONT</figcaption></figure>
+<figure><img src="assets/adhira-apocalypse-seer/03-back-view.png" alt="Adhira back view"><figcaption>03 — BACK VIEW</figcaption></figure>
+<figure><img src="assets/adhira-apocalypse-seer/04-face-closeup.png" alt="Adhira face and material detail"><figcaption>04 — FACE & MATERIAL DETAIL</figcaption></figure>
+<figure><img src="assets/adhira-apocalypse-seer/05-three-quarter-detail.png" alt="Adhira three-quarter character view"><figcaption>05 — THREE-QUARTER VIEW</figcaption></figure>
+<figure><img src="assets/adhira-apocalypse-seer/06-side-view.png" alt="Adhira side view"><figcaption>06 — SIDE VIEW</figcaption></figure>
+<figure><img src="assets/adhira-apocalypse-seer/07-back-three-quarter.png" alt="Adhira rear three-quarter view"><figcaption>07 — REAR THREE-QUARTER</figcaption></figure>
+<figure><img src="assets/adhira-apocalypse-seer/08-wireframe.jpg" alt="Adhira wireframe topology view"><figcaption>08 — WIREFRAME</figcaption></figure>
+</div>
+<div class="detail-info">
+<div><p class="eyebrow">PROJECT OVERVIEW</p><h2>Character with a story.</h2><p>Adhira’s visual language brings together survival-worn materials, seer markings, tribal tattoos and a modular back-mounted weapon system. The surface treatment aims to communicate age, survival and spiritual depth through scars, wear, dust and ritual paint rather than clean, plastic-looking surfaces.</p><p>The design uses a limited red-faction-inspired palette and a braided hairstyle referencing an ancient warrior aesthetic.</p></div>
+<div><p class="eyebrow">MY WORKFLOW & TOOLS</p><h2>Production details.</h2><ul><li>3D modeling, UV unwrapping, material assignment, lighting and rendering in Blender.</li><li>Custom hand-painted stylized PBR texturing in Substance 3D Painter.</li><li>Prepared and exported for real-time use; tested inside Godot Engine.</li><li>48K triangles and 5 materials.</li></ul><p><strong>Software:</strong> Blender, Substance 3D Painter, Godot Engine.</p></div>
+</div>
+</main>
+<footer><a class="brand" href="index.html">DM<span>.</span></a><span>© <span id="year"></span> DHRUV MANGROLA</span><a href="#">BACK TO TOP ↑</a></footer>
+<script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</body></html>
